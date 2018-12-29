@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env python
 #encoding: utf8
 import rospy, unittest, rostest, actionlib
@@ -59,3 +60,20 @@ if __name__ == '__main__':
 # Copyright 2016 Ryuichi Ueda
 # Released under the BSD License.
 # To make line numbers be identical with the book, this statement is written here. Don't move it to the header.
+=======
+#!/usr/bin/env python 
+import rospy, unittest, rostest
+import rosnode
+import time
+
+class BuzzerTest(unittest.TestCase):
+	def test_node_exist(self):
+		nodes = rosnode.get_node_names()
+		self.assertIn('/buzzer', nodes, "node does note exit")
+
+if __name__ == '__main__':
+	time.sleep(3)
+	rospy.init_node('travis_test_buzzer')
+	rostest.rosrun('pimouse_ros', 'travis_test_buzzer', BuzzerTest)
+
+>>>>>>> 0818e5c357e4f2e301f8849e17a3c9e5bd049a97
