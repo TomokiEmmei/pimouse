@@ -1,7 +1,6 @@
-[![Build Status](https://travis-ci.org/ryuichiueda/pimouse_ros.svg?branch=master)](https://travis-ci.org/ryuichiueda/pimouse_ros)
-
+[![Build Status](https://travis-ci.org/TomokiEmmei/pimouse.svg?branch=prac)](https://travis-ci.org/TomokiEmmei/pimouse)
 # pimouse_ros
 
 「Raspberry Piで学ぶ ROSロボット入門」の6章から9章までのプログラムです。このリポジトリで、原稿完成後に動作検証を行いました。
-# pimouse_ros
-ラズベリーパイマウスで学ぶROS入門の6章〜
+# pimouse
+-> 以上を受けてラズパイマウスの勉強用に使わせてもらっています
